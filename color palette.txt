@@ -1,0 +1,5 @@
+Text: E3E3E3
+Light: A67B7B
+Medium: A64242
+Dark: 401A1A
+Trim: FF1717
