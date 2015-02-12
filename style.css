@@ -1,0 +1,19 @@
+/*body
+{
+	color: #E3E3E3;
+	background-color: #A67B7B;
+}*/
+
+#container
+{
+	margin: 0 auto;
+	width: 860px;
+	outline: 1px solid black;
+}
+
+#container img
+{
+	outline: 1px solid blue;
+	width: 25px;
+	height: 25px;
+}
