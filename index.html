@@ -4,10 +4,13 @@
 	<title>techSlice</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
+	<div id="container">
 	<header>
-		<img class="quick-link"></img>
+		<img class="second-link"></img>
 		<div class="branding">techSlice</div>
 		<div class="byline">latest tech info by the slice</div>
 		<nav>
@@ -28,20 +31,20 @@
 			</ul>
 		</nav>
 	</header>
-	<div id="container">
-		<div id="gallery">
-			<h1>tech<span class="emphasis">Features</span></h1>
-			<div id="carousel">
-				<!-- Heading, Feature title -->
-				<div class="title"></div>
-				<!-- Image, Feature img -->
-				<div class="img"></div>
-				<!-- Paragraph, Feature description -->
-				<div class="descript"></div>
-			</div>
+	<div id="gallery">
+		<h1>tech<span class="emphasis">Features</span></h1>
+		<div id="carousel">
+			<!-- Heading, Feature title -->
+			<div class="title"></div>
+			<!-- Image, Feature img -->
+			<div class="img"></div>
+			<!-- Paragraph, Feature description -->
+			<div class="descript"></div>
 		</div>
-		<div id="feature-list">
-			<h2>Today's Stories.</h2>
+	</div>
+	<aside>
+		<h2>Today's Stories.</h2>
+		<div id="#feature-list">
 			<!-- Heading, Feature title -->
 			<div class="title"></div>
 			<!-- Image, Feature img -->
@@ -51,6 +54,8 @@
 			<!-- Paragraph, Feature Post Date (x mins ago) -->
 			<div class="date"></div>
 		</div>
+	</aside>
+	<div id="articles">
 		<h1>tech<span class="emphasis">Articles</span></h1>
 		<div id="article-list">
 			<!-- Img, Article Image -->
@@ -66,5 +71,6 @@
 		</div>
 	</div>
 	<footer>&copy;</footer>
+	</div>
 </body>
 </html>
