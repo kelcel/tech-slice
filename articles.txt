@@ -1,15 +1,80 @@
 [
 {
-"title":"",
-"img":"",
-"synopsis":"",
-"date":"",
+"title":"Test Title Article",
+"img":"art-img.jpg",
+"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"date":"2/17/15",
 link = 
 [
-"facebook":"",
-"twitter":"",
-"email":""
+"facebook":"ath1",
+"twitter":"auth_1",
+"email":"auth1"
 ]
-"author":""
+"author":"auth1"
+}
+{
+"title":"Test Title Article 2",
+"img":"art-img2.jpg",
+"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"date":"2/17/15",
+link = 
+[
+"facebook":"ath2",
+"twitter":"auth_2",
+"email":"auth2"
+]
+"author":"auth2"
+}
+{
+"title":"Test Title Article 3",
+"img":"art-img3.jpg",
+"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"date":"2/17/15",
+link = 
+[
+"facebook":"ath3",
+"twitter":"auth_3",
+"email":"auth3"
+]
+"author":"auth3"
+}
+{
+"title":"Test Title Article 4",
+"img":"art-img4.jpg",
+"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"date":"2/17/15",
+link = 
+[
+"facebook":"ath4",
+"twitter":"auth_4",
+"email":"auth4"
+]
+"author":"auth4"
+}
+{
+"title":"Test Title Article 5",
+"img":"art-img5.jpg",
+"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"date":"2/17/15",
+link = 
+[
+"facebook":"ath5",
+"twitter":"auth_5",
+"email":"auth5"
+]
+"author":"auth5"
+}
+{
+"title":"Test Title Article 6",
+"img":"art-img6.jpg",
+"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"date":"2/17/15",
+link = 
+[
+"facebook":"ath6",
+"twitter":"auth_6",
+"email":"auth6"
+]
+"author":"auth6"
 }
 ]
