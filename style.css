@@ -1,37 +1,14 @@
-/*
-h1
-{
-	font-size: 2em;
-	color: #E3E3E3;
-}
-
-h2
-{
-	font-size: 1.5em;
-	color: #E3E3E3;
-}
-
-h1, h2
-{
-	margin-bottom: 5px;
-}
-*/
 #container
 {
 	margin: 0 auto;
 	width: 860px;
-	/*background-color: #A67B7B;*/
 }
 
 header
 {
 	display: inline-block;
 	width: inherit;
-	/*padding: 5px 0;*/
-	margin: 0;
-	padding: 0;
 	outline: 1px solid black;
-	/*background-color: #401A1A;*/
 }
 
 header .second-link
@@ -47,7 +24,6 @@ header #secondary
 
 header img, .branding
 {
-	margin: 0;
 	float: left;
 	margin-left: 5px;
 }
@@ -55,24 +31,17 @@ header img, .branding
 header nav
 {
 	text-align: right;
-	margin: 0;
 	margin-right: 5px;
 }
 
 header li
 {
 	display: inline-block;
-	margin: 0;
 }
 
 section
 {
-	/*padding: 5px;
-	padding-top: 0*/
-	margin: 0;
-	padding: 0;
 	display: table-row;
-	/*overflow: hidden;*/
 	outline: 1px solid red;
 }
 
@@ -116,15 +85,12 @@ section
 
 .descript
 {
-	/*padding: 10px;*/
 	height: inherit;
 }
 
 aside
 {
 	width: 258px;
-	/*float: right;
-	clear: right;*/
 	display: table-cell;
 	overflow: hidden;
 	outline: 1px solid red;
@@ -133,7 +99,6 @@ aside
 #feature-list
 {
 	overflow: hidden;
-	/*height: 60px;*/
 	display: table-row;
 	outline: 1px solid purple;
 }
