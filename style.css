@@ -1,28 +1,43 @@
-/*body
+/*
+h1
 {
+	font-size: 2em;
 	color: #E3E3E3;
-	background-color: #A67B7B;
-}*/
+}
 
+h2
+{
+	font-size: 1.5em;
+	color: #E3E3E3;
+}
+
+h1, h2
+{
+	margin-bottom: 5px;
+}
+*/
 #container
 {
 	margin: 0 auto;
 	width: 860px;
-	outline: 1px solid black;
-}
-
-#container img
-{
-	width: 25px;
-	height: 25px;
+	/*background-color: #A67B7B;*/
 }
 
 header
 {
 	display: inline-block;
-	width: 100%;
-	padding: 5px;
-	outline: 1px solid green;
+	width: inherit;
+	/*padding: 5px 0;*/
+	margin: 0;
+	padding: 0;
+	outline: 1px solid black;
+	/*background-color: #401A1A;*/
+}
+
+header .second-link
+{
+	width: 65px;
+	height: 25px;
 }
 
 header #secondary
@@ -32,14 +47,157 @@ header #secondary
 
 header img, .branding
 {
+	margin: 0;
 	float: left;
+	margin-left: 5px;
 }
 
-header nav{
-	float: right;
+header nav
+{
+	text-align: right;
+	margin: 0;
+	margin-right: 5px;
 }
 
 header li
 {
 	display: inline-block;
+	margin: 0;
+}
+
+section
+{
+	/*padding: 5px;
+	padding-top: 0*/
+	margin: 0;
+	padding: 0;
+	display: table-row;
+	/*overflow: hidden;*/
+	outline: 1px solid red;
+}
+
+#gallery
+{
+	width: 602px;
+	display: table-cell;
+	outline: 1px solid black;
+	overflow: hidden;
+}
+
+#carousel
+{
+	text-align: center;
+	height: 350px;
+	position: relative;
+	outline: 1px solid red;
+}
+
+#carousel .title
+{
+	position: absolute;
+	width: 100%;
+	top: 5%;
+}
+
+#carousel .img
+{
+	background-color: #222;
+}
+
+.hr
+{
+	margin: auto;
+	margin-bottom: 10px;
+	display: block;
+	width: 75%;
+	height: 2px;
+	background-color: #999;
+}
+
+.descript
+{
+	/*padding: 10px;*/
+	height: inherit;
+}
+
+aside
+{
+	width: 258px;
+	/*float: right;
+	clear: right;*/
+	display: table-cell;
+	overflow: hidden;
+	outline: 1px solid red;
+}
+
+#feature-list
+{
+	overflow: hidden;
+	/*height: 60px;*/
+	display: table-row;
+	outline: 1px solid purple;
+}
+
+#feature-list .col1
+{
+	width: 30%;
+	height: inherit;
+	float: left;
+	display: table-cell;
+	text-align: center;
+	outline: 1px solid blue;
+}
+
+
+.thumbnail
+{
+	width: 50px;
+	height: 50px;
+	background-color: #444444;
+}
+
+
+#feature-list .col2
+{
+	width: 70%;
+	float: left;
+	display: table-cell;
+	height: inherit;
+	outline: 1px solid red;
+}
+
+#articles
+{
+	overflow: auto;
+	height: 1%;
+	outline: 1px solid black;
+}
+
+#articles .col1
+{
+	width: 30%;
+	float: left;
+	outline: 1px solid red;
+	text-align: center;
+}
+
+article .img
+{
+	background-color: #000;
+	width: 150px;
+	height: 100px;
+}
+
+#articles .col2
+{
+	width: 70%;
+	float: right;
+	outline: 1px solid blue;
+}
+
+footer
+{
+	width: inherit;
+	outline: 1px solid blue;
+	text-align: center;
 }
