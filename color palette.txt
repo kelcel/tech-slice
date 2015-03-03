@@ -1,5 +1,8 @@
-Text: E3E3E3
-Light: A67B7B
-Medium: A64242
-Dark: 401A1A
-Trim: FF1717
+C9C9C9	     735555      2B1414     2B0808      AD0000
+
+
+Text: C9C9C9
+Light: 735555
+Medium: 2B1414
+Dark: 2B0808
+Trim: AD0000
