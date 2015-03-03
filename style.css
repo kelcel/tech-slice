@@ -1,14 +1,34 @@
+body
+{
+	background-color: #2B0808;
+}
+
 #container
 {
 	margin: 0 auto;
-	width: 860px;
+	width: 100%;
+	background-color: #FFF;
+}
+
+h1
+{
+	font-family: "Heading Bold";
+	font-size: 1.65em;
+	letter-spacing: .1em;
+}
+
+.emphasis
+{
+	color: red;
 }
 
 header
 {
+	padding: 0 2%;
+	background-color: #000;
+	color: #C9C9C9;
 	display: inline-block;
-	width: inherit;
-	outline: 1px solid black;
+	width: 96%;
 }
 
 header .second-link
@@ -25,7 +45,13 @@ header #secondary
 header img, .branding
 {
 	float: left;
-	margin-left: 5px;
+}
+
+.branding
+{
+	font-family: "Heading";
+	font-size: 1.25em;
+	word-spacing: -3px;
 }
 
 header nav
@@ -42,23 +68,22 @@ header li
 section
 {
 	display: table-row;
-	outline: 1px solid red;
 }
 
 #gallery
 {
-	width: 602px;
+	outline: 1px solid red;
+	padding: 0 2%;
+	width: 64%;
 	display: table-cell;
-	outline: 1px solid black;
 	overflow: hidden;
 }
 
 #carousel
 {
 	text-align: center;
-	height: 350px;
+	min-height: 350px;
 	position: relative;
-	outline: 1px solid red;
 }
 
 #carousel .title
@@ -71,6 +96,7 @@ section
 #carousel .img
 {
 	background-color: #222;
+	height: 400px;
 }
 
 .hr
@@ -90,27 +116,33 @@ section
 
 aside
 {
-	width: 258px;
+	outline: 1px solid blue;
+	padding: 0 2%;
+	width: 26%;
 	display: table-cell;
 	overflow: hidden;
-	outline: 1px solid red;
+}
+
+aside h2
+{
+	outline: 1px solid black;
 }
 
 #feature-list
 {
-	overflow: hidden;
-	display: table-row;
 	outline: 1px solid purple;
+	width: 100%;
+	overflow: hidden;
+	display: block;
 }
 
 #feature-list .col1
 {
 	width: 30%;
+	outline: 1px solid red;
 	height: inherit;
 	float: left;
-	display: table-cell;
 	text-align: center;
-	outline: 1px solid blue;
 }
 
 
@@ -124,45 +156,44 @@ aside
 
 #feature-list .col2
 {
+	outline: 1px solid blue;
 	width: 70%;
 	float: left;
-	display: table-cell;
-	height: inherit;
-	outline: 1px solid red;
 }
 
 #articles
 {
+	padding: 0 2%;
+	outline: 1px solid blue;
 	overflow: auto;
 	height: 1%;
-	outline: 1px solid black;
 }
 
 #articles .col1
 {
+	outline: 1px solid red;
 	width: 30%;
 	float: left;
-	outline: 1px solid red;
 	text-align: center;
 }
 
 article .img
 {
 	background-color: #000;
-	width: 150px;
-	height: 100px;
+	width: 250px;
+	height: 150px;
 }
 
 #articles .col2
 {
+	outline: 1px solid blue;
 	width: 70%;
 	float: right;
-	outline: 1px solid blue;
 }
 
 footer
 {
+	background-color: #2B0808;
 	width: inherit;
-	outline: 1px solid blue;
 	text-align: center;
 }
