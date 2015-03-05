@@ -1,6 +1,7 @@
 body
 {
 	background-color: #2B0808;
+	font-family: "Text Bold", sans-serif;
 }
 
 #container
@@ -12,9 +13,15 @@ body
 
 h1
 {
-	font-family: "Heading Bold";
+	font-family: "Heading Bold", sans-serif;
 	font-size: 1.65em;
 	letter-spacing: .1em;
+}
+
+h2
+{
+	font-family: "Heading Bold", sans-serif;
+	font-size: 1.4em;
 }
 
 .emphasis
@@ -34,7 +41,7 @@ header
 header .second-link
 {
 	width: 65px;
-	height: 25px;
+	height: 28px;
 }
 
 header #secondary
@@ -51,18 +58,34 @@ header img, .branding
 {
 	font-family: "Heading";
 	font-size: 1.25em;
+	line-height: 1.4em; /* based on font-size */
 	word-spacing: -3px;
 }
 
 header nav
 {
 	text-align: right;
-	margin-right: 5px;
 }
 
 header li
 {
 	display: inline-block;
+	margin-left: 10px;
+}
+
+header a, header a:visited
+{
+	color: #C9C9C9;
+	text-decoration: none;
+	font-family: "Heading", sans-serif;
+	letter-spacing: 1px;
+	font-size: 1em;
+	line-height: 1.75em;
+}
+
+header a:hover, header a:active
+{
+	color: #FE0;
 }
 
 section
@@ -72,7 +95,6 @@ section
 
 #gallery
 {
-	outline: 1px solid red;
 	padding: 0 2%;
 	width: 64%;
 	display: table-cell;
@@ -116,21 +138,14 @@ section
 
 aside
 {
-	outline: 1px solid blue;
 	padding: 0 2%;
 	width: 26%;
 	display: table-cell;
 	overflow: hidden;
 }
 
-aside h2
-{
-	outline: 1px solid black;
-}
-
 #feature-list
 {
-	outline: 1px solid purple;
 	width: 100%;
 	overflow: hidden;
 	display: block;
@@ -139,7 +154,6 @@ aside h2
 #feature-list .col1
 {
 	width: 30%;
-	outline: 1px solid red;
 	height: inherit;
 	float: left;
 	text-align: center;
@@ -156,15 +170,15 @@ aside h2
 
 #feature-list .col2
 {
-	outline: 1px solid blue;
+	margin-top: 5px;
 	width: 70%;
 	float: left;
 }
 
 #articles
 {
+	margin-top: 30px;
 	padding: 0 2%;
-	outline: 1px solid blue;
 	overflow: auto;
 	height: 1%;
 }
@@ -186,7 +200,6 @@ article .img
 
 #articles .col2
 {
-	outline: 1px solid blue;
 	width: 70%;
 	float: right;
 }
