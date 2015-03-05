@@ -1,0 +1,8 @@
+Modularity:
+
+Classes for Rows, Columns.
+Separate files for for font, formatting, media queries, color styles.
+Styling works regardless of semantics.
+Separate files for scripting processes.
+Break large functions into smaller ones.
+Small, readable files.
