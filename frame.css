@@ -1,0 +1,50 @@
+#container
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.fixed
+{
+    position: fixed;
+}
+
+.row
+{
+    padding: 0 5%;
+    overflow: none;
+    clear: both;
+    font-size: 0;
+}
+
+.col
+{
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.col-100
+{
+    width: 100%;
+}
+
+.col-70
+{
+    width: 70%;
+}
+
+.col-30
+{
+    width: 30%;
+}
