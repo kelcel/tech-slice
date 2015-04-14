@@ -29,7 +29,7 @@ h2
 	color: red;
 }
 
-header
+.header
 {
 	padding: 0 2%;
 	background-color: #000;
@@ -38,18 +38,18 @@ header
 	width: 96%;
 }
 
-header .second-link
+.header .second-link
 {
 	width: 65px;
 	height: 28px;
 }
 
-header #secondary
+.header #secondary
 {
 	display: none;
 }
 
-header img, .branding
+.header img, .branding
 {
 	float: left;
 }
@@ -62,18 +62,18 @@ header img, .branding
 	word-spacing: -3px;
 }
 
-header nav
+.header nav
 {
 	text-align: right;
 }
 
-header li
+.header li
 {
 	display: inline-block;
 	margin-left: 10px;
 }
 
-header a, header a:visited
+.header a, header a:visited
 {
 	color: #C9C9C9;
 	text-decoration: none;
@@ -83,7 +83,7 @@ header a, header a:visited
 	line-height: 1.75em;
 }
 
-header a:hover, header a:active
+.header a:hover, header a:active
 {
 	color: #FE0;
 }

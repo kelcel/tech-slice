@@ -1,0 +1,14 @@
+.branding , .menu li
+{
+    display: inline-block;
+}
+
+#secondary
+{
+    display: none;
+}
+
+.tcenter
+{
+    text-align: center;
+}
