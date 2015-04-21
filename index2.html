@@ -15,17 +15,35 @@
 </head>
 <body>
 	<div id="container">
-        <div class="row">
+        <div class="row header">
     	<header class="col-100 col">
             <span class="left branding">
-                <img><!--Icon--></img>
-                <div>tech Slice</div>
+                <img class="left" src="img/secondary-icon.png"></img>
+                <div class="right">tech Slice</div>
             </span>
-    		<nav class="menu right">
+    		<nav id="menu" class="right">
     			<ul>
-    				<li><a href="#">Hardware</a></li>
-    				<li><a href="#">Software</a></li>
-    				<li><a href="#">Mobile</a></li>
+    				<li>
+                        <a href="#">hardware</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="#">Laptops<a></li>
+                                <li><a href="#">Desktops</a></li>
+                                <li><a href="#">Tablets</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    				<li><a href="#">software</a></li>
+    				<li>
+                        <a href="#">mobile</a>
+                        <div class="dropdown right">
+                            <ul>
+                                <li><a href="#">iPhone</a></li>
+                                <li><a href="#">Android</a></li>
+                                <li><a href="#">Windows Phone</a></li>
+                            </ul>
+                        </div>
+                    </li>
     			</ul>
     		</nav>
     		<nav id="secondary">

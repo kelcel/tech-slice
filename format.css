@@ -1,6 +1,88 @@
-.branding , .menu li
+.header
 {
-    display: inline-block;
+    border-bottom: 3px solid blue;
+    background-color: #000;
+    color: #FFF;
+    font-size: 16px;
+    height: 42px;
+    line-height: 21px;
+ }
+
+#menu
+{
+    position: relative;
+    top: -12px;
+}
+
+#menu, #menu ul, #menu li, #menu a
+{
+    display: block;
+    height: 100%;
+}
+
+.branding , #menu > ul > li
+{
+    display: inline-block; /* Does not affect the list-item inside of dropdown menu */
+}
+
+.branding img
+{
+    margin-right: 15px;
+}
+
+#menu > ul > li /* Does not affect the list-item inside of dropdown menu */
+{
+    margin-left: 15px;
+}
+
+#menu li
+{
+    position: relative;
+}
+
+#menu a
+{
+    padding: 0 10px;
+}
+
+#menu, #menu ul, #menu li, #menu a
+{
+    display: block;
+}
+
+.dropdown
+{
+    visibility: hidden;
+    position: absolute;
+    width: 250px;
+    background-color: blue;
+}
+
+#menu .right
+{
+    right: -1px;
+}
+
+#menu li:hover .dropdown
+{
+    visibility: visible;
+}
+
+#menu a
+{
+    line-height: 42px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menu > ul >li > a:hover /* Does not affect the list-item inside of dropdown menu */
+{
+    background: blue;
+}
+
+.dropdown a:hover
+{
+    background: black;
 }
 
 #secondary

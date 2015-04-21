@@ -2,6 +2,7 @@
 {
     margin: 0 auto;
     width: 100%;
+    position: relative;
 }
 
 .left
@@ -22,10 +23,9 @@
 .row
 {
     padding: 0 5%;
-    overflow: hidden; /*important, removes whitespace vs overflow:none*/
+    overflow: visible; /*important, removes whitespace vs overflow:none*/
     clear: both;
     font-size: 0;
-    outline: 1px solid blue;
 }
 
 .col
@@ -34,7 +34,6 @@
     height: 100%;
     display: inline-block;
     font-size: 16px;
-    outline: 1px solid red;
 }
 
 .col-100
