@@ -5,39 +5,40 @@
 
 .content h1 , .content h2
 {
-    color: blue;
+    margin-left: 25px;
     margin-bottom: 15px;
 }
 
-#gallery
+#gallery , #feature-list , #article-list
 {
-    outline: 1px dotted grey;
-    overflow: hidden;
     position: relative;
-    display: block;
-    height: 400px;
+    overflow: visible;
+    height: 375px;
 }
 
-#gallery .img
+#gallery .img , .feature .img, .article .img
 {
-    position: absolute;
+    outline: 1px dashed blue;
     height: 100%;
     width: 100%;
-    background: #FFF;
+}
+
+#gallery .title , #gallery .descript , #gallery p , .feature .title , .feature .date , .article .date , .article .links
+{
+    position: absolute;
 }
 
 #gallery .title
 {
-    position: absolute;
-    left: 12%;
-    width: 75%;
-    background: blue;
+    left: 25%;
+    width: 50%;
     top: 25px;
+    background: #FFF;
+    z-index: 998;
 }
 
 #gallery .descript
 {
-    position: absolute;
     width: 100%;
     bottom: 0;
     background: #CCC;
@@ -47,11 +48,53 @@
 
 #gallery p
 {
-    position: absolute;
-    padding: 15px;
-    max-height: 70px;
+    padding: 10px;
+    max-height: 80px;
     opacity: 1.0;
     overflow: auto;
     bottom: 0;
-    line-height: 115%;
+    line-height: 110%;
+}
+
+#feature-list .col , #article-list .col /* fix padding on columns or lose 4 % on width */
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.feature
+{
+    height: 75px;
+}
+
+.feature .col-70 , .article .col-70
+{
+    position: relative;
+}
+
+.feature .title
+{
+    top: 15%;
+    left: 2%;
+}
+
+.feature .date , .article .date
+{
+    bottom: 15%;
+    right: 5%;
+}
+
+.article
+{
+    height: 125px;
+}
+
+.article .links
+{
+    bottom: 15%;
+}
+
+.article .title , .article .synopsis
+{
+    margin: 5px 0 0 5px;
 }

@@ -2,7 +2,6 @@
 {
     margin: 0 auto;
     width: 100%;
-    position: relative;
 }
 
 .left
@@ -15,9 +14,19 @@
     float: right;
 }
 
+.no-pad
+{
+    padding: 0 !important;
+}
+
 .fixed
 {
     position: fixed;
+}
+
+.tcenter
+{
+    text-align: center;
 }
 
 .row
@@ -25,7 +34,6 @@
     padding: 0 5%;
     overflow: visible; /*important, removes whitespace vs overflow:none*/
     clear: both;
-    font-size: 0;
 }
 
 .col
@@ -44,6 +52,16 @@
 .col-70
 {
     width: 68%;
+}
+
+.col-60
+{
+    width: 58%;
+}
+
+.col-40
+{
+    width: 38%;
 }
 
 .col-30

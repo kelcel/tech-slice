@@ -63,49 +63,53 @@
     	</header>
         </div> <!-- end row for Header -->
         <div class="row content"> <!-- Start Content Format CSS -->
-            <div class="col-70 col left">
+            <div class="col-60 col left">
                 <h1>techFeatures</h1>
                 <div id="gallery">
                     <div class="title tcenter">Title</div>
-                    <div class="img">Image</div>
+                    <div class="img"></div>
                     <div class="descript">
                         <div class="hr"></div>
-                    </div> <!-- end description -->
+                    </div> 
                     <p> <!-- paragrpah will go inside div class descript, css trick -->
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Blah blah blahb blah blah blahb blah.
-                    </p>
+                    </p> <!-- end description -->
                 </div> <!-- end gallery-->
             </div> <!-- end first content column -->
-            <aside class="col-30 col right">
+            <div class="col-40 col right">
                 <h2>Today's Stories.</h2>
-                <div id="feature-list" >
-                    <div class="col1">
-                        <img class="thumbnail"></img>
+                <div id="feature-list">
+                <div class="row feature no-pad">
+                    <div class="col-30 col left">
+                        <div class="img"></div>
                     </div>
-                    <div class="col2">
+                    <div class="col-70 col right">
                         <div class="title">Title: Lorem ipsum dolor sit amet</div>
                         <div class="date">0 mins ago</div>
                     </div>
-                </div>
-            </aside>
-        </div> <!-- end row for Gallery and Aside -->
-        <div id="articles" class="row">
+                </div> <!-- end singular feature -->
+                </div> <!-- end feature list -->
+            </div>
+        </div> <!-- end row for Content - Gallery and Aside -->
+        <div class="row content">
             <div class="col-100 col">
-                <h1>tech<span class="emphasis">articles</span></h1>
-                <article>
-                    <div class="col1">
-                        <img class="img"></img>
+                <h1>techArticles</h1>
+                <div id="article-list">
+                <div class="row article no-pad">
+                    <div class="col-30 col left">
+                        <div class="img"></div>
                     </div>
-                    <div class="col2">
-                        <div class="title">title: lorem ipsum dolor sit amet</div>
+                    <div class="col-70 col right">
+                        <div class="title">Title: lorem ipsum dolor sit amet</div>
                         <div class="synopsis">
                             <p>
-                        synopsis :lorem ipsum dolor sit amet, consectetuer adipiscing elit. aenean commodo ligula eget dolor. aenean massa. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                        Synopsis: lorem ipsum dolor sit amet, consectetuer adipiscing elit. aenean commodo ligula eget dolor. aenean massa. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
                         </p>
                         <div class="links">links: fb, t, e</div>
                         <div class="date">0 mins ago</div>
                     </div>
-                </article>
+                </div> <!-- end singular article -->
+                </div>
             </div>
         </div>
         <div class="row">
