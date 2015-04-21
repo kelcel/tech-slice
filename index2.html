@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="frame.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="header-format.css">
+    <link rel="stylesheet" href="content-format.css">
     <!--<link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="color.css">-->
 	<link rel="stylesheet" href="font-media.css">
@@ -61,22 +62,20 @@
     		</nav>
     	</header>
         </div> <!-- end row for Header -->
-        <div class="row">
-            <div id="gallery" class="col-70 col left">
-                <h1>tech<span class="emphasis">Features</span></h1>
-                <div id="carousel">
-                    <div class="title">Title</div>
+        <div class="row content"> <!-- Start Content Format CSS -->
+            <div class="col-70 col left">
+                <h1>techFeatures</h1>
+                <div id="gallery">
+                    <div class="title tcenter">Title</div>
                     <div class="img">Image</div>
                     <div class="descript">
                         <div class="hr"></div>
-                        <p>
+                    </div> <!-- end description -->
+                    <p> <!-- paragrpah will go inside div class descript, css trick -->
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Blah blah blahb blah blah blahb blah.
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Blah blah blahb blah blah blahb blah.
-
                     </p>
-                </div> <!-- end description -->
-                </div> <!-- end carousel -->
-            </div> <!-- end gallery -->
+                </div> <!-- end gallery-->
+            </div> <!-- end first content column -->
             <aside class="col-30 col right">
                 <h2>Today's Stories.</h2>
                 <div id="feature-list" >

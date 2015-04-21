@@ -1,0 +1,57 @@
+.content
+{
+    font-size: 16px;
+}
+
+.content h1 , .content h2
+{
+    color: blue;
+    margin-bottom: 15px;
+}
+
+#gallery
+{
+    outline: 1px dotted grey;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 400px;
+}
+
+#gallery .img
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+}
+
+#gallery .title
+{
+    position: absolute;
+    left: 12%;
+    width: 75%;
+    background: blue;
+    top: 25px;
+}
+
+#gallery .descript
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #CCC;
+    opacity: 0.3;
+    height: 100px;
+}
+
+#gallery p
+{
+    position: absolute;
+    padding: 15px;
+    max-height: 70px;
+    opacity: 1.0;
+    overflow: auto;
+    bottom: 0;
+    line-height: 115%;
+}
