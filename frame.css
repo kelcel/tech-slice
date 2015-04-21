@@ -22,29 +22,32 @@
 .row
 {
     padding: 0 5%;
-    overflow: none;
+    overflow: hidden; /*important, removes whitespace vs overflow:none*/
     clear: both;
     font-size: 0;
+    outline: 1px solid blue;
 }
 
 .col
 {
+    padding: 1%;
     height: 100%;
     display: inline-block;
     font-size: 16px;
+    outline: 1px solid red;
 }
 
 .col-100
 {
-    width: 100%;
+    width: 98%;
 }
 
 .col-70
 {
-    width: 70%;
+    width: 68%;
 }
 
 .col-30
 {
-    width: 30%;
+    width: 28%;
 }
