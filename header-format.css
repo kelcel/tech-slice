@@ -1,0 +1,100 @@
+.header
+{
+    position: relative;
+    border-bottom: 3px solid blue;
+    font-size: 16px;
+    height: 42px;
+    line-height: 21px; /* centers branding text and image */
+    color: #FFF;
+    background: #000;
+ }
+
+#menu
+{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+#menu, #menu ul, #menu li, #menu a
+{
+    display: block;
+    height: 100%;
+}
+
+.branding , #menu > ul > li
+{
+    display: inline-block; /* Does not affect the list-item inside of dropdown menu */
+}
+
+.branding img
+{
+    margin-right: 15px;
+}
+
+#menu > ul > li /* Does not affect the list-item inside of dropdown menu */
+{
+    margin-left: 15px;
+}
+
+#menu li
+{
+    position: relative;
+}
+
+#menu a
+{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menu a , .dropdown
+{
+    line-height: 42px; /* Centers menu a to menu bar */
+}
+
+.dropdown
+{
+    visibility: hidden;
+    position: absolute;
+    width: 250px;
+    z-index: 999;
+    background-color: blue;
+}
+
+#menu .right
+{
+    right: -1px;
+}
+
+#menu .drop-center /* dropdown menu centered on main menu list-item */
+{
+    left: -40%;
+}
+
+#menu li:hover .dropdown
+{
+    visibility: visible;
+}
+
+#menu > ul > li > a /* Does not affect the list-item inside of dropdown menu */
+{
+    text-align: center;
+    width: 120px;
+}
+
+#menu > ul >li > a:hover /* Does not affect the list-item inside of dropdown menu */
+{
+    background: blue;
+}
+
+.dropdown a:hover
+{
+    background: black;
+}
+
+#secondary
+{
+    display: none;
+}
