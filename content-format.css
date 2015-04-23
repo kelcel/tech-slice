@@ -5,8 +5,7 @@
 
 .content h1 , .content h2
 {
-    margin-left: 25px;
-    margin-bottom: 15px;
+    margin: 15px 0 15px 25px;
 }
 
 #gallery , #feature-list , #article-list
@@ -18,7 +17,7 @@
 
 #gallery .img , .feature .img, .article .img
 {
-    outline: 1px dashed blue;
+    outline: 1px dashed grey;
     height: 100%;
     width: 100%;
 }
@@ -48,7 +47,7 @@
 
 #gallery p
 {
-    padding: 10px;
+    padding: 5px 10px 15px;
     max-height: 80px;
     opacity: 1.0;
     overflow: auto;
@@ -74,13 +73,13 @@
 
 .feature .title
 {
-    top: 15%;
+    top: 10%;
     left: 2%;
 }
 
 .feature .date , .article .date
 {
-    bottom: 15%;
+    bottom: 5%;
     right: 5%;
 }
 
@@ -91,10 +90,11 @@
 
 .article .links
 {
-    bottom: 15%;
+    bottom: 5%;
 }
 
 .article .title , .article .synopsis
 {
-    margin: 5px 0 0 5px;
+    margin-top: 5px;
+    line-height: 120%;
 }

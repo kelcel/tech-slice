@@ -1,0 +1,42 @@
+.header
+{
+    background: #000;
+    color: #FFF;
+}
+
+#menu a
+{
+    color: #FFF;
+}
+
+#menu > ul > li > a:hover /* Does not affect the list-item inside of dropdown menu */
+{
+    background: blue;
+}
+
+.dropdown
+{
+    background-color: blue;
+}
+
+.dropdown a:hover
+{
+    background: black;
+}
+
+#secondary
+{
+    background: #222;
+    color: #FFF;
+}
+
+#secondary .close
+{
+    outline: 1px dotted white;
+}
+
+.foot
+{
+    background: #333;
+    color: #FFF;
+}

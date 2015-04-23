@@ -8,9 +8,9 @@
 	<link rel="stylesheet" href="frame.css">
     <link rel="stylesheet" href="header-format.css">
     <link rel="stylesheet" href="content-format.css">
-    <!--<link rel="stylesheet" href="font.css">
-    <link rel="stylesheet" href="color.css">-->
-	<link rel="stylesheet" href="font-media.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="color.css">
+<!--    <link rel="stylesheet" href="font-media.css">-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="script.js"></script>
 </head>
@@ -18,10 +18,12 @@
 	<div id="container">
         <div class="row header">
     	<header class="col-100 col">
+        <div class="lo">
             <span class="left branding">
                 <img class="left" src="img/secondary-icon.png"></img>
-                <div class="right">tech Slice</div>
+                <div class="right">techSlice</div>
             </span>
+        </div>
     		<nav id="menu" class="right">
     			<ul>
     				<li>
@@ -50,8 +52,10 @@
                     </li>
     			</ul>
     		</nav>
-    		<nav id="secondary">
-    			<p>Connect with us through</p>
+    		<nav id="secondary" class="tcenter fixed">
+                <img class="close right"></img>
+    			<p>Follow us:</p>
+                <div class="hr"></div>
     			<ul>
     				<li>facebook</li>
     				<li>twitter</li>
@@ -64,7 +68,7 @@
         </div> <!-- end row for Header -->
         <div class="row content"> <!-- Start Content Format CSS -->
             <div class="col-60 col left">
-                <h1>techFeatures</h1>
+                <h1>tech<span class="emph">Features</span></h1>
                 <div id="gallery">
                     <div class="title tcenter">Title</div>
                     <div class="img"></div>
@@ -80,7 +84,7 @@
                 <h2>Today's Stories.</h2>
                 <div id="feature-list">
                 <div class="row feature no-pad">
-                    <div class="col-30 col left">
+                    <div class="col-30 col left no-pad">
                         <div class="img"></div>
                     </div>
                     <div class="col-70 col right">
@@ -93,10 +97,10 @@
         </div> <!-- end row for Content - Gallery and Aside -->
         <div class="row content">
             <div class="col-100 col">
-                <h1>techArticles</h1>
+                <h1>tech<span class="emph">Articles</span></h1>
                 <div id="article-list">
                 <div class="row article no-pad">
-                    <div class="col-30 col left">
+                    <div class="col-30 col left no-pad">
                         <div class="img"></div>
                     </div>
                     <div class="col-70 col right">
@@ -112,7 +116,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row foot">
             <footer class="col-100 col tcenter"><script> $(document).ready(function() { $("footer").html("&copy; " + new Date().getFullYear());}); </script></footer>
         </div>
 	</div> 

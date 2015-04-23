@@ -1,0 +1,42 @@
+@font-face
+{
+	font-family: Text;
+	src: url('font/Quicksand-Regular.otf');
+}
+
+@font-face
+{
+	font-family: Text Bold;
+	src: url('font/Quicksand-Bold.otf');
+}
+
+
+#container
+{
+    font-family: Text;
+}
+
+.branding , h1 , #gallery .title , .feature .title , .article .title
+{
+    font-family: Text Bold;
+}
+
+h1 , h2
+{
+    font-size: 1.15em;
+}
+
+#gallery p
+{
+    font-family: Text;
+}
+
+.feature .title , .article .title
+{
+    font-size: 1em;
+}
+
+.feature .date , .article .date
+{
+    font-size: .875em;
+}
