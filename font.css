@@ -21,6 +21,11 @@
     font-family: Text Bold;
 }
 
+.branding
+{
+    font-size: 1.5em;
+}
+
 h1 , h2
 {
     font-size: 1.15em;

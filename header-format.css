@@ -1,8 +1,8 @@
 .header
 {
     position: relative;
-    border-bottom: 3px solid;
-    height: 42px;
+    border-bottom: 4px solid;
+    height: 41px;
  }
 
 #menu
@@ -67,7 +67,7 @@
 
 #menu .right
 {
-    right: -1px;
+    right: 0;
 }
 
 #menu .drop-center /* dropdown menu centered on main menu list-item */
@@ -80,6 +80,11 @@
     display: block;
 }
 
+.dropdown input
+{
+    padding: 5px;
+}
+
 #menu > ul > li > a /* Does not affect the list-item inside of dropdown menu */
 {
     width: 100px;
@@ -88,7 +93,7 @@
 #secondary
 {
     top: 0;
-    left: -250px;
+    left: 250px;
     z-index: 1000;
     width: 200px;
     padding: 25px;

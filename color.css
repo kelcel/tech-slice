@@ -1,72 +1,46 @@
+body
+{
+    color: #3B1F11;
+}
+
 .header
 {
-    background: #777;
-    border-color: red;
+    background: #FF864A;
+    border-color: #FF681C;
 }
 
-#menu a
+.header, #menu > ul > li > a , .dropdown a , #secondary , .foot
 {
-    color: #000;
-}
-
-#menu > ul > li > a:hover /* Does not affect the list-item inside of dropdown menu */
-{
-    background: blue;
-}
-
-.dropdown
-{
-    background-color: blue;
-}
-
-.dropdown a:hover
-{
-    background: black;
-}
-
-#secondary
-{
-    background: #222;
     color: #FFF;
-}
-
-#secondary .close
-{
-    outline: 1px dotted white;
-}
-
-#secondary .hr
-{
-    border-color: #888;
-}
-
-#secondary li
-{
-    border-color: #444;
 }
 
 .bg
 {
-    background: red;
+    background: #F2DFC5;
 }
 
-.content
+#menu > ul > li:hover , .dropdown
 {
-    background: blue;
+   background: #C26638;
 }
 
-#gallery .descript
+.dropdown a:hover
 {
-    background: grey;
+    background: #FFF;
+    color: #000;
 }
 
-#feature-list , .feature
+#secondary
 {
-    background: brown;
+    background: #333;
+}
+
+#secondary .hr , #secondary li
+{
+    border-color: #777;
 }
 
 .foot
 {
-    background: #333;
-    color: #FF0;
+    background: #3B1F11; 
 }
