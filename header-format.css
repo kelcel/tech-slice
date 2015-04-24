@@ -93,7 +93,7 @@
 #secondary
 {
     top: 0;
-    left: 250px;
+    left: -250px;
     z-index: 1000;
     width: 200px;
     padding: 25px;
