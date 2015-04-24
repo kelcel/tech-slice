@@ -12,14 +12,14 @@
     right: 6%;
 }
 
-.lo
+.logo-wrap
 {
     position: absolute;
     top: 0;
     left: 6%;
 }
 
-.lo , #menu , #menu ul , #menu li , #menu a , #secondary
+.logo-wrap , #menu , #menu ul , #menu li , #menu a , #secondary
 {
     display: block;
     height: 100%;

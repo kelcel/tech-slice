@@ -9,7 +9,7 @@ body , #menu > ul > li > a
     border-color: #FF681C;
 }
 
-.header , .dropdown a , #secondary , .foot , .lo a
+.header , .dropdown a , #secondary , .foot , .logo-wrap a
 {
     text-decoration: none;
     color: #FFF;
