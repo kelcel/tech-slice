@@ -1,4 +1,4 @@
-body
+body , #menu > ul > li > a
 {
     color: #3B1F11;
 }
@@ -9,29 +9,32 @@ body
     border-color: #FF681C;
 }
 
-.header, #menu > ul > li > a , .dropdown a , #secondary , .foot
+.header , .dropdown a , #secondary , .foot , .lo a
 {
+    text-decoration: none;
     color: #FFF;
 }
 
 .bg
 {
-    background: #F2DFC5;
+/*    background: #F2DFC5;*/
+    background:#F2EDE6;
 }
-
+/*
 #menu > ul > li:hover , .dropdown
 {
    background: #C26638;
 }
-
+*/
 .dropdown a:hover
 {
     background: #FFF;
     color: #000;
 }
 
-#secondary
+#secondary , #menu > ul > li:hover , .dropdown , input[placeholder]
 {
+    color: #FFF;
     background: #333;
 }
 
