@@ -109,10 +109,16 @@
 #secondary .close
 {
     position: absolute;
+    opacity: 0.6;
     top: 2%;
     right: 5%;
     width: 14px;
     height: 14px;
+}
+
+#secondary .close:hover
+{
+    opacity: 1;
 }
 
 #secondary .hr
@@ -124,9 +130,21 @@
 }
 
 #secondary li
-{
+{   
+    position: relative;
     margin: 10px auto;
+    cursor: pointer;
     text-align: left;
     padding: 5px 25px;
     border: 1px dashed;
+    line-height: 35px;
+}
+
+#secondary .img
+{
+    position: relative;
+    top: 7px;
+    left: -10px;
+    width: 25px;
+    height: 25px;
 }

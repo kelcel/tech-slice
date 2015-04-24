@@ -15,24 +15,19 @@ body , #menu > ul > li > a
     color: #FFF;
 }
 
-.bg
+.bg , #secondary li:hover
 {
-/*    background: #F2DFC5;*/
+    color: #000;
     background:#F2EDE6;
 }
-/*
-#menu > ul > li:hover , .dropdown
-{
-   background: #C26638;
-}
-*/
+
 .dropdown a:hover
 {
     background: #FFF;
     color: #000;
 }
 
-#secondary , #menu > ul > li:hover , .dropdown , input[placeholder]
+#secondary , #menu > ul > li:hover , .dropdown , input
 {
     color: #FFF;
     background: #333;
