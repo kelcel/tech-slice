@@ -1,8 +1,7 @@
 .header
 {
     position: relative;
-    border-bottom: 3px solid blue;
-    font-size: 16px;
+    border-bottom: 3px solid;
     height: 42px;
  }
 
@@ -26,7 +25,7 @@
     height: 100%;
 }
 
-.branding , #menu > ul > li
+#menu > ul > li
 {
     display: inline-block; /* Does not affect the list-item inside of dropdown menu */
 }
@@ -39,7 +38,7 @@
 .branding img
 {
     margin-right: 15px;
-    margin-top: 9px;
+    margin-top: 12px;
 }
 
 #menu > ul > li /* Does not affect the list-item inside of dropdown menu */
@@ -60,7 +59,7 @@
 
 .dropdown
 {
-    visibility: hidden;
+    display: none;
     position: absolute;
     width: 250px;
     z-index: 999;
@@ -78,12 +77,11 @@
 
 #menu li:hover .dropdown
 {
-    visibility: visible;
+    display: block;
 }
 
 #menu > ul > li > a /* Does not affect the list-item inside of dropdown menu */
 {
-    text-align: center;
     width: 100px;
 }
 
@@ -109,13 +107,14 @@
 {
     margin: 10px 0 20px 0;
     height: 1px;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid;
+
 }
 
 #secondary li
 {
-    border: 1px dashed #444;
     margin: 10px auto;
     text-align: left;
     padding: 5px 25px;
+    border: 1px dashed;
 }
