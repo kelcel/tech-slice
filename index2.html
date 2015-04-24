@@ -69,7 +69,7 @@
     		</nav>
     	</header>
         </div> <!-- end row for Header -->
-        <div class="row row-over bg"> <!-- Start Content Format CSS -->
+        <section class="row row-over bg"> <!-- Start Content Format CSS -->
             <div class="col-60 col left content">
                 <h1>tech<span class="emph">Features</span></h1>
                 <div id="gallery">
@@ -83,7 +83,7 @@
                     </p> <!-- end description -->
                 </div> <!-- end gallery-->
             </div> <!-- end first content column -->
-            <div class="col-40 col right content">
+            <aside class="col-40 col right content">
                 <h2>Today's Stories.</h2>
                 <div id="feature-list">
                 <div class="row feature no-pad">
@@ -96,9 +96,9 @@
                     </div>
                 </div> <!-- end singular feature -->
                 </div> <!-- end feature list -->
-            </div>
-        </div> <!-- end row for Content - Gallery and Aside -->
-        <div class="row bg">
+            </aside>
+        </section> <!-- end row for Content - Gallery and Aside -->
+        <section class="row bg">
             <div class="col-100 col content">
                 <h1>tech<span class="emph">Articles</span></h1>
                 <div id="article-list">
@@ -112,13 +112,18 @@
                             <p>
                         Synopsis: lorem ipsum dolor sit amet, consectetuer adipiscing elit. aenean commodo ligula eget dolor. aenean massa. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
                         </p>
-                        <div class="links">links: fb, t, e</div>
+                        <div class="links">
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="null">Tweet</a>
+                            <script>
+                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                            </script> 
+                        </div>
                         <div class="date">0 mins ago</div>
                     </div>
                 </div> <!-- end singular article -->
                 </div>
             </div>
-        </div>
+        </section>
         <div class="row foot">
             <footer class="col-100 col tcenter"><script> $(document).ready(function() { $("footer").html("&copy; " + new Date().getFullYear());}); </script></footer>
         </div>
