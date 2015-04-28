@@ -38,6 +38,11 @@ body , #menu > ul > li > a
     border-color: #777;
 }
 
+.feature
+{
+    border-color: #CCC;
+}
+
 .foot
 {
     background: #3B1F11; 
