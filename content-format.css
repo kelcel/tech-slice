@@ -55,8 +55,9 @@
 
 .feature
 {
+    margin-bottom: 0px;
     height: 75px;
-    border: 1px solid;
+ /*   border: 1px solid;*/
 }
 
 .feature .col-70 , .article .col-70
