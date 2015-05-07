@@ -16,7 +16,7 @@
     font-family: Text;
 }
 
-.branding , h1 , #gallery .title , .feature .title , .article .title
+.branding , h1 , #gallery .title , .feature .title , .article .title , #gallery p
 {
     font-family: Text Bold;
 }
@@ -29,11 +29,6 @@
 #menu , h1 , h2
 {
     font-size: 1.15em;
-}
-
-#gallery p
-{
-    font-family: Text;
 }
 
 .feature .title , .article .title

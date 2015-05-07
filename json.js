@@ -74,9 +74,12 @@ function featureEffects(objArr)
 
     $(".feature").click(function()
     {
-        $(".feature").removeClass("selected");
-        $(this).addClass("selected");
-        displayGallery(objArr[$(this).index()]);
+        if ( ! $(this).hasClass("selected") )
+        {
+            $(".feature").removeClass("selected");
+            $(this).addClass("selected");
+            displayGallery(objArr[$(this).index()]);
+        }
     });
 }
 
@@ -87,9 +90,9 @@ function displayArticles(objArr)
     for ( var i in objArr )
     {
         article.clone().appendTo($("#article-list"));
-        $(".article .img").css("background-image","url(img/" + objArr[i].img + ")");
-        $(".article .title").text(objArr[i].title);
-        $(".article .synopsis p").text(objArr[i].synopsis);
-        $(".article .date").text(objArr[i].date);
+        $(".article .img").last().css("background-image","url(img/" + objArr[i].img + ")");
+        $(".article .title").last().text(objArr[i].title);
+        $(".article .synopsis p").last().text(objArr[i].synopsis);
+        $(".article .date").last().text(objArr[i].date);
     }
 }

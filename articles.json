@@ -1,23 +1,23 @@
 [
 {
-"title":"Test Title Article",
+"title":"Holograms from Star Wars now feasible, scientists presume",
 "img":"star-wars-hologram.jpg",
-"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"synopsis":"The fantastical tech that captivated a generation may move into the realm of science-reality thanks to the research of one team. Scientists have developed new optical imaging techniques that may simulate 3D objects over a 2D projector. Hopefully this particular piece of nostaglia will not longer strictly belong in a galaxy far, far away.",
 "date":"2/17/15",
-"author":"auth1"
+"twdata":"hologram"
 },
 {
-"title":"Test Title Article 2",
-"img":"star-wars-hologram.jpg",
-"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
-"date":"2/17/15",
-"author":"auth2"
+"title":"Facebook rollsout its new video calling feature for the masses",
+"img":"facebook-video-calling.jpg",
+"synopsis":"Facebook recently released a statement on its new video calling feature as an effort to remain current in the competitive social media sphere. The feature which had been offered months prior as an 'opt-in' is now available by default to all of Facebook's users. Facebook hopes to prolong average usage time to keep users engaged with the site long enough to see the ads that pay the bills.",
+"date":"5/7/15",
+"twdata":"video-calling"
 },
 {
-"title":"Test Title Article 3",
-"img":"star-wars-hologram.jpg",
-"synopsis":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. ",
+"title":"Paypal makes a splash with 'Instant Checkout'",
+"img":"pay-pal.jpg",
+"synopsis":"Paypal has made changes to the eCommerce strategy that has been labelled by users as 'cumbersome' and 'un-intuitive'. The latest change includes 'Instant Checkout' which allows for fast, one-button payments without bulky billing forms, across all parcitipating sites. Online merchants are hoping this removes a barrier of entry for potential customers and improve sales.",
 "date":"2/17/15",
-"author":"auth3"
+"twdata":"paypals"
 }
 ]

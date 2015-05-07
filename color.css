@@ -28,7 +28,7 @@ body , #menu > ul > li > a
     color: #000;
 }
 
-#secondary , #menu > ul > li:hover , .dropdown , input , .feature-hover
+#secondary , #menu > ul > li:hover , .dropdown , input , .feature-hover , #gallery .title
 {
     color: #FFF;
     background: #333;
