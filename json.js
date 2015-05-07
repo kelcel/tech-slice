@@ -37,9 +37,11 @@ function getData(url, xmlhttp)
 
 function displayGallery(obj)
 {
+    $("#gallery .img").fadeOut(0);
     $("#gallery .title").text(obj.title);
     $("#gallery .img").css("background-image","url(img/" + obj.img + ")");
     $("#gallery p").text(obj.descript);
+    $("#gallery .img").fadeIn(500);
 }
 
 function displayFeatures(objArr)
