@@ -7,7 +7,14 @@
 {
     position: relative;
     overflow: visible;
-    height: 375px;
+    height: 395px;
+    margin-bottom: 15px;
+}
+
+#article-list
+{
+    height: 480px;
+    margin-bottom: 35px;
 }
 
 #gallery .img , .feature .img, .article .img
@@ -55,7 +62,7 @@
 
 .feature
 {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     height: 75px;
  /*   border: 1px solid;*/
 }
@@ -79,12 +86,14 @@
 
 .article
 {
-    height: 125px;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
 .article .links
 {
     height: 18px;
+    right: 15%;
     bottom: 5%;
 }
 
