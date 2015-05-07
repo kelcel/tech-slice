@@ -3,8 +3,9 @@ body , #menu > ul > li > a
     color: #3B1F11;
 }
 
-.header
+.header , .selected
 {
+    color: #FFF;
     background: #FF864A;
     border-color: #FF681C;
 }
@@ -27,7 +28,7 @@ body , #menu > ul > li > a
     color: #000;
 }
 
-#secondary , #menu > ul > li:hover , .dropdown , input
+#secondary , #menu > ul > li:hover , .dropdown , input , .feature-hover
 {
     color: #FFF;
     background: #333;

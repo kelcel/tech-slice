@@ -6,17 +6,8 @@ $(document).ready(function()
     for (var i in urls)
     {
         xmlhttp[i] = new XMLHttpRequest();
-       getData(urls[i], xmlhttp[i]);
+        getData(urls[i], xmlhttp[i]);
     }
-
-/*
-    alert("done loading features");
-    $(".feature").click(function(){
-        $("#gallery .img").fadeTo('slow', function()
-        {
-           $(this).css("background-image", $(this).find(".img").css("background-image")).fadeIn("slow");
-        });
-    });*/
 });
 
 function getData(url, xmlhttp)
@@ -24,15 +15,15 @@ function getData(url, xmlhttp)
     xmlhttp.onreadystatechange = function()
     {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            var myArr = JSON.parse(xmlhttp.responseText);
+            var objArr = JSON.parse(xmlhttp.responseText);
             if (url == "features.json")
             {
-                displayGallery(myArr[0]);
-                displayFeatures(myArr);
+                displayGallery(objArr[0]);
+                displayFeatures(objArr);
             }
             else if (url == "articles.json")
             {
-                displayArticles(myArr);
+                displayArticles(objArr);
             }
             else
             {
@@ -44,40 +35,59 @@ function getData(url, xmlhttp)
     xmlhttp.send();
 }
 
-function displayGallery(arr)
+function displayGallery(obj)
 {
-    $("#gallery .title").text(arr.title);
-    $("#gallery .img").css("background-image","url(img/" + arr.img + ")");
-    $("#gallery p").text(arr.descript);
+    $("#gallery .title").text(obj.title);
+    $("#gallery .img").css("background-image","url(img/" + obj.img + ")");
+    $("#gallery p").text(obj.descript);
 }
 
-function displayFeatures(arr)
+function displayFeatures(objArr)
 {
     var feature = $(".feature");
     $(".feature").remove();
-    for ( var i in arr )
+    for ( var i in objArr )
     {
         feature.clone().appendTo($("#feature-list"));
-        $(".feature .img").last().css("background-image","url(img/" + arr[i].img + ")");
-        $(".feature .title").last().text(arr[i].title);
-        $(".feature .date").last().text(arr[i].date);
-        if ( 0 == i )
+        $(".feature .img").last().css("background-image","url(img/" + objArr[i].img + ")");
+        $(".feature .title").last().text(objArr[i].title);
+        $(".feature .date").last().text(objArr[i].date);
+        if ( i == 0 )
         {
-            $(".feature").last().addClass("selected");
+            $(".feature").addClass("selected");
         }
     }
+    featureEffects(objArr);
 }
 
-function displayArticles(arr)
+function featureEffects(objArr)
+{
+    $(".feature").hover(function()
+    {
+        $(this).addClass("feature-hover");
+    }, function()
+    {
+        $(this).removeClass("feature-hover")
+    });
+
+    $(".feature").click(function()
+    {
+        $(".feature").removeClass("selected");
+        $(this).addClass("selected");
+        displayGallery(objArr[$(this).index()]);
+    });
+}
+
+function displayArticles(objArr)
 {
     var article = $(".article");
     $(".article").remove();
-    for ( var i in arr )
+    for ( var i in objArr )
     {
         article.clone().appendTo($("#article-list"));
-        $(".article .img").css("background-image","url(img/" + arr[i].img + ")");
-        $(".article .title").text(arr[i].title);
-        $(".article .synopsis p").text(arr[i].synopsis);
-        $(".article .date").text(arr[i].date);
+        $(".article .img").css("background-image","url(img/" + objArr[i].img + ")");
+        $(".article .title").text(objArr[i].title);
+        $(".article .synopsis p").text(objArr[i].synopsis);
+        $(".article .date").text(objArr[i].date);
     }
 }
