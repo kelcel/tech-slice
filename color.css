@@ -6,7 +6,7 @@ body , #menu > ul > li > a
 .header , .selected
 {
     color: #FFF;
-    background: #FF864A !important;
+    background: #FF864A;
     border-color: #FF681C;
 }
 

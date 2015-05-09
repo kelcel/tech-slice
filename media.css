@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px)
+{
+    .header { height: auto; }
+
+    .logo-wrap , #menu
+    {
+        position: relative;
+        left: 0;
+        float: none;
+        text-align: center;
+        clear: both;
+    }
+
+    .branding { left: 0; }
+
+    .branding img , .branding div
+    {
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #secondary { width: 50%; padding: 25px 0; left: -50%; }
+    #secondary li { width: 60%; }
+
+    .article { overflow: hidden; }
+    .article .date { background: #FFF; }
+    .article .links { display: none; }
+    .article .synposis { text-overflow: ellipsis; }
+}
+
+@media screen and (max-width: 600px)
+{
+    #menu ul li  a { text-align: left; }
+    #menu > ul > li:hover .dropdown { display: none; }
+    #menu ul > li { display: block; width: 40%; border-top: 1px solid #DDD; }
+    #secondary { width: 100%; left: -100%; }
+    .content.col-60 { display: none; }
+    
+    .content.col-40
+    {
+        width: 98%;
+    }
+}

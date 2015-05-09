@@ -1,21 +1,27 @@
 $(document).ready(function(){
 
+    var logo_position;
+    var secondary_width = $("#secondary").width() + 2 * Math.abs( parseInt( $("#secondary").css("padding-left"), 10 ) );
+    var old_position = parseInt($(".logo-wrap").css("left"), 10);
+
     /*Toggle Secondary Nav*/
     $(".branding img").click(function(){
         $("#secondary").animate({left: "0px"} , "fast");
 
-        var width = parseInt($(window).width() *.06, 10) ;
-        var offset = parseInt($(".logo-wrap").css("left"), 10);
+        var new_position = parseInt($(".logo-wrap").css("left"), 10);
 
-        if (width == offset)
-            $(".logo-wrap").animate({left: "255px"}, "fast");
-        else
-            return;
+        if (new_position == old_position && $(window).width() >= 800) $(".logo-wrap").animate({left: secondary_width + 15}, "fast");
+        else return;
     });
 
     $("#secondary .close").click(function(){
-        $("#secondary").animate({left: "-250px"}, "fast");
-        $(".logo-wrap").animate({left: $(window).width()*.06}, "fast");
+        var position = 0 - secondary_width;
+
+        $("#secondary").animate({left: position}, "fast");
+        if ( $(window).width() <= 800 ) logo_position = 0;
+        else logo_position = $(window).width() * .06;
+
+        $(".logo-wrap").animate({left: logo_position}, "fast");
     });
     
     /*Menu Link Coloring*/

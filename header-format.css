@@ -5,7 +5,7 @@
     height: 41px;
  }
 
-#menu
+#menu , .logo-wrap
 {
     position: absolute;
     top: 0;
@@ -14,8 +14,6 @@
 
 .logo-wrap
 {
-    position: absolute;
-    top: 0;
     left: 6%;
 }
 
